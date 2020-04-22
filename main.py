@@ -109,7 +109,6 @@ def validate_submitted_players(submitted_players: List[dict]) -> bool:
                 print(
                     f'This entry is not valid because {player.get("name")} played for {team}. Someone in the list already played there.'
                 )
-                print(f"Submitted players: {submitted_players}")
                 return False
 
         national_teams_played_for = player.get("national_teams", [])
@@ -120,7 +119,6 @@ def validate_submitted_players(submitted_players: List[dict]) -> bool:
                 print(
                     f'This entry is not valid because {player.get("name")} played for {national_team.strip()}. Someone in the list already played there.'
                 )
-                print(f"Submitted players: {submitted_players}")
                 return False
     return True
 
