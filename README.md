@@ -17,7 +17,7 @@ Version 1 does not include the "played in your lifetime" rule as that's still a 
 
 # Setup
 1. Clone this directory onto your local environment: `git clone https://github.com/SchubmannM/footy-world-xi-validator.git && cd footy-world-xi-validator/`
-3. Run `python3 -m pip install --user --upgrade pipenv` to install pipenv locally
+3. Run `python3 -m pip install --user --upgrade pipenv` to install pipenv locally (or run `brew install pipenv` on MacOS)
 4. Run `pipenv sync && pipenv shell` to install all packages needed to run this programa and enable the virtual environment
 5. Run `python main.py`to run the program
 6. ???
