@@ -14,7 +14,7 @@ The app asks you to enter 11 different footballer names and then runs a validati
 
 Version 1 does not include the "played in your lifetime" rule as that's still a bit vague to be defined in code.
 
-This is the CLI version of the program. A web version is also available here: https://github.com/SchubmannM/footy-world-xi-validator-web and live here http://3.10.116.156/
+This is the CLI version of the program. A web version is also available here: https://github.com/SchubmannM/footy-world-xi-validator-web and live here https://footy.schubmann.dev/
 
 # Setup
 1. Clone this directory onto your local environment: `git clone https://github.com/SchubmannM/footy-world-xi-validator.git && cd footy-world-xi-validator/`
